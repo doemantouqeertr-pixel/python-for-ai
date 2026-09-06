@@ -75,9 +75,8 @@ fruits[0] = "mango"
 print(fruits) # hence apple is replaced by mango
 
 fruits.append("grape") 
-
 fruits.insert(3, "kiwi") #insert at position
-
+print(fruits)
 
 # to remove
 fruits.remove("grape")

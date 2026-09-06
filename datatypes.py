@@ -198,7 +198,7 @@ print(7 >= 3) #True bcz 7 is greater than 3
 print(3 < 8)  #True bcz 3 is smaller than 8
 print(7 <= 7) #True bcz 7 is equal to 7
 print(1 < 5 < 6) #hence everything is True, therefore its 'True"
-print(5 < 4 < 6) #since one is False, henace its 'False'
+print(5 > 4 < 6) #since one is False, henace its 'False'
 
 '''-------'''
 print("a" == "a") #strings can be compared too, Hence 'True'
@@ -323,7 +323,6 @@ movie = "Game of Thrones"
 print("Thrones" in movie)
 print(movie.startswith("Game"))
 print(movie.endswith("Thrones"))   
-
 # find position
 print(movie.find("Game"))   # 1st occurance "0"
 print(movie.count("of"))    # no. of times "1"
