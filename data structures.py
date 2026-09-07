@@ -101,7 +101,6 @@ numbers = [3, 1, 4, 1, 5, 9]
 print(len(numbers))         # 6 (length)
 print(numbers.count(1))     # 2 (count occurrences)
 print(numbers.index(4))     # 2 (find position)
-
 # Sorting
 numbers.sort()              # Sort in place
 print(numbers)              # [1, 1, 3, 4, 5, 9]
@@ -224,7 +223,10 @@ print(person.items())   # dict_items([('name', 'eman'), ...])
 # Check if key exists
 if "name" in person:
     print("Name found!")
-
+    #or
+if "name" in person:
+    print("wohoo, name found, its:", person["name"])
+    
 # Update multiple values
 person.update({"age": 18, "job": "Engineer"})
 print(person)

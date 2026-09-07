@@ -135,8 +135,6 @@ check_weather2()  # Grab a hot chocolate!
 
 
 
-
-
 #---Variable scope: Local vs Global--:-
 
 #Local variables:
